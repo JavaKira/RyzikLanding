@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #84a048;
+}
+
+.brightness-50{
+    filter: brightness(50%);
+}
+
+.container {
+    display: grid;
+    gap: 20px;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("http://localhost:8082/indexBackground.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero .btn {
+    display: block;
+    width: 200px;
+
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+.hero h1 {
+    font-size: 5em;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.box {
+    display: grid;
+    place-items: center;
+    grid-column: var(--column, 1);
+}
+
+.section {
+    display: grid;
+    place-items: center;
+    grid-row: var(--row, 1);
+}
