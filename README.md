@@ -1,9 +1,9 @@
 <h1 align="center">Ryzik Landing</h1>
 
-## Description
-its landing maden for my game JavaKira/Ryzik and for projects portfolio.
+![alt text](https://github.com/JavaKira/RyzikLanding/blob/master/screenshots/screenshot1.png)
 
-at this project i test my layout skills for prepare to work at big project.
+## Description
+its landing maden for my game JavaKira/Ryzik and for projects portfolio, at this project i test my layout skills for prepare to work at big project.
 
 ## Techologies
 server made on Spring Boot, layout made using HTML and CSS grid.
